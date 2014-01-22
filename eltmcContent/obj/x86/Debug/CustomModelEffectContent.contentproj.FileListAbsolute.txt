@@ -1,0 +1,2 @@
+C:\Users\Jeremy\Documents\Visual Studio 2010\Projects\CustomModelEffect\CustomModelEffect\CustomModelEffectContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jeremy\Documents\Visual Studio 2010\Projects\eltmc\CustomModelEffect\CustomModelEffectContent\obj\x86\Debug\ResolveAssemblyReference.cache

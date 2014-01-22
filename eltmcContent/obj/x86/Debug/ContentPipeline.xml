@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>CombinedShader.fx</Source>
+      <Name>CombinedShader</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jeremy\Documents\Visual Studio 2010\Projects\eltmc\eltmc\eltmc\bin\x86\Debug\Content\CombinedShader.xnb</Output>
+      <Time>2012-08-09T17:15:30.7239091-07:00</Time>
+    </Item>
+    <Item>
+      <Source>ToonShader.fx</Source>
+      <Name>ToonShader</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jeremy\Documents\Visual Studio 2010\Projects\eltmc\eltmc\eltmc\bin\x86\Debug\Content\ToonShader.xnb</Output>
+      <Time>2012-06-14T19:10:21.7576637-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sobel2.fx</Source>
+      <Name>Sobel2</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jeremy\Documents\Visual Studio 2010\Projects\eltmc\eltmc\eltmc\bin\x86\Debug\Content\Sobel2.xnb</Output>
+      <Time>2012-08-09T17:13:26.4084882-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Car.fbx</Source>
+      <Name>Car</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>CustomEffect</Processor>
+      <Parameters>
+        <Data Key="Effect">CombinedShader.fx</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Jeremy\Documents\Visual Studio 2010\Projects\eltmc\eltmc\eltmc\bin\x86\Debug\Content\Car.xnb</Output>
+      <Time>2012-06-14T19:10:35.8004669-07:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Car_0.xml</Key>
+        <Value>2012-07-17T23:02:07.1006839-07:00</Value>
+      </Dependency>
+      <Request>C:\Users\Jeremy\Documents\Visual Studio 2010\Projects\eltmc\eltmc\eltmc\bin\x86\Debug\Content\CarTexture_0.xnb</Request>
+      <Request>C:\Users\Jeremy\Documents\Visual Studio 2010\Projects\eltmc\eltmc\eltmc\bin\x86\Debug\Content\CombinedShader.xnb</Request>
+    </Item>
+    <Item>
+      <Source>terrain.fbx</Source>
+      <Name>terrain</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>CustomEffect</Processor>
+      <Parameters>
+        <Data Key="Effect">CombinedShader.fx</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Jeremy\Documents\Visual Studio 2010\Projects\eltmc\eltmc\eltmc\bin\x86\Debug\Content\terrain.xnb</Output>
+      <Time>2012-06-16T17:37:51.2606635-07:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\terrain_0.xml</Key>
+        <Value>2012-07-17T23:02:07.8806853-07:00</Value>
+      </Dependency>
+      <Request>C:\Users\Jeremy\Documents\Visual Studio 2010\Projects\eltmc\eltmc\eltmc\bin\x86\Debug\Content\terrainTexture_0.xnb</Request>
+      <Request>C:\Users\Jeremy\Documents\Visual Studio 2010\Projects\eltmc\eltmc\eltmc\bin\x86\Debug\Content\CombinedShader.xnb</Request>
+    </Item>
+    <Item>
+      <Source>tower.fbx</Source>
+      <Name>tower</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>CustomEffect</Processor>
+      <Parameters>
+        <Data Key="Effect">CombinedShader.fx</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Jeremy\Documents\Visual Studio 2010\Projects\eltmc\eltmc\eltmc\bin\x86\Debug\Content\tower.xnb</Output>
+      <Time>2012-07-02T14:50:53.9782777-07:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\tower_0.xml</Key>
+        <Value>2012-07-17T23:02:08.4422863-07:00</Value>
+      </Dependency>
+      <Request>C:\Users\Jeremy\Documents\Visual Studio 2010\Projects\eltmc\eltmc\eltmc\bin\x86\Debug\Content\simpletowerTexture_0.xnb</Request>
+      <Request>C:\Users\Jeremy\Documents\Visual Studio 2010\Projects\eltmc\eltmc\eltmc\bin\x86\Debug\Content\CombinedShader.xnb</Request>
+    </Item>
+    <Item>
+      <Source>wiz.fbx</Source>
+      <Name>wiz</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>CustomEffect</Processor>
+      <Parameters>
+        <Data Key="Effect">CombinedShader.fx</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Jeremy\Documents\Visual Studio 2010\Projects\eltmc\eltmc\eltmc\bin\x86\Debug\Content\wiz.xnb</Output>
+      <Time>2012-06-21T16:11:56.8477329-07:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\wiz_0.xml</Key>
+        <Value>2012-07-17T23:02:09.0038873-07:00</Value>
+      </Dependency>
+      <Request>C:\Users\Jeremy\Documents\Visual Studio 2010\Projects\eltmc\eltmc\eltmc\bin\x86\Debug\Content\wizardTexture_0.xnb</Request>
+      <Request>C:\Users\Jeremy\Documents\Visual Studio 2010\Projects\eltmc\eltmc\eltmc\bin\x86\Debug\Content\CombinedShader.xnb</Request>
+    </Item>
+    <Item>
+      <Source>testbox.fbx</Source>
+      <Name>testbox</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>CustomEffect</Processor>
+      <Parameters>
+        <Data Key="Effect">CombinedShader.fx</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Jeremy\Documents\Visual Studio 2010\Projects\eltmc\eltmc\eltmc\bin\x86\Debug\Content\testbox.xnb</Output>
+      <Time>2012-07-02T14:58:44.7281872-07:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\testbox_0.xml</Key>
+        <Value>2012-07-17T23:02:09.5654882-07:00</Value>
+      </Dependency>
+      <Request>C:\Users\Jeremy\Documents\Visual Studio 2010\Projects\eltmc\eltmc\eltmc\bin\x86\Debug\Content\testBoxTex_0.xnb</Request>
+      <Request>C:\Users\Jeremy\Documents\Visual Studio 2010\Projects\eltmc\eltmc\eltmc\bin\x86\Debug\Content\CombinedShader.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Font.spritefont</Source>
+      <Name>Font</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jeremy\Documents\Visual Studio 2010\Projects\eltmc\eltmc\eltmc\bin\x86\Debug\Content\Font.xnb</Output>
+      <Time>2012-06-22T16:42:12.9923271-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Car.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Car_0.xml</Output>
+      <Time>2012-06-14T19:10:35.8004669-07:00</Time>
+    </Item>
+    <Item>
+      <Source>CarTexture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Jeremy\Documents\Visual Studio 2010\Projects\eltmc\eltmc\eltmc\bin\x86\Debug\Content\CarTexture_0.xnb</Output>
+      <Time>2012-06-05T22:35:56.1996764-07:00</Time>
+    </Item>
+    <Item>
+      <Source>terrain.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\terrain_0.xml</Output>
+      <Time>2012-06-16T17:37:51.2606635-07:00</Time>
+    </Item>
+    <Item>
+      <Source>terrainTexture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Jeremy\Documents\Visual Studio 2010\Projects\eltmc\eltmc\eltmc\bin\x86\Debug\Content\terrainTexture_0.xnb</Output>
+      <Time>2012-06-16T17:37:51.2666638-07:00</Time>
+    </Item>
+    <Item>
+      <Source>tower.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\tower_0.xml</Output>
+      <Time>2012-07-02T14:50:53.9782777-07:00</Time>
+    </Item>
+    <Item>
+      <Source>simpletowerTexture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Jeremy\Documents\Visual Studio 2010\Projects\eltmc\eltmc\eltmc\bin\x86\Debug\Content\simpletowerTexture_0.xnb</Output>
+      <Time>2012-06-16T22:02:13.8129719-07:00</Time>
+    </Item>
+    <Item>
+      <Source>wiz.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\wiz_0.xml</Output>
+      <Time>2012-06-21T16:11:56.8477329-07:00</Time>
+    </Item>
+    <Item>
+      <Source>wizardTexture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Jeremy\Documents\Visual Studio 2010\Projects\eltmc\eltmc\eltmc\bin\x86\Debug\Content\wizardTexture_0.xnb</Output>
+      <Time>2012-06-18T21:53:56.5867787-07:00</Time>
+    </Item>
+    <Item>
+      <Source>fireball.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\fireball_0.xml</Output>
+      <Time>2012-07-18T18:21:53.7757499-07:00</Time>
+    </Item>
+    <Item>
+      <Source>testbox.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\testbox_0.xml</Output>
+      <Time>2012-07-02T14:58:44.7281872-07:00</Time>
+    </Item>
+    <Item>
+      <Source>testBoxTex.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Jeremy\Documents\Visual Studio 2010\Projects\eltmc\eltmc\eltmc\bin\x86\Debug\Content\testBoxTex_0.xnb</Output>
+      <Time>2012-07-22T21:53:21.2079254-07:00</Time>
+    </Item>
+    <Item>
+      <Source>fbTex.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Jeremy\Documents\Visual Studio 2010\Projects\eltmc\eltmc\eltmc\bin\x86\Debug\Content\fbTex_0.xnb</Output>
+      <Time>2012-07-18T18:22:04.3223531-07:00</Time>
+    </Item>
+    <Item>
+      <Source>testBoxTex.png</Source>
+      <Name>testBoxTex</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jeremy\Documents\Visual Studio 2010\Projects\eltmc\eltmc\eltmc\bin\x86\Debug\Content\testBoxTex.xnb</Output>
+      <Time>2012-07-22T21:53:21.2079254-07:00</Time>
+    </Item>
+    <Item>
+      <Source>fireball.fbx</Source>
+      <Name>fireball</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>CustomEffect</Processor>
+      <Parameters>
+        <Data Key="ColorKeyEnabled">False</Data>
+        <Data Key="Effect">CombinedShader.fx</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Jeremy\Documents\Visual Studio 2010\Projects\eltmc\eltmc\eltmc\bin\x86\Debug\Content\fireball.xnb</Output>
+      <Time>2012-07-18T18:21:53.7757499-07:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\fireball_0.xml</Key>
+        <Value>2013-01-09T12:07:27.9105511-08:00</Value>
+      </Dependency>
+      <Request>C:\Users\Jeremy\Documents\Visual Studio 2010\Projects\eltmc\eltmc\eltmc\bin\x86\Debug\Content\fbTex_0.xnb</Request>
+      <Request>C:\Users\Jeremy\Documents\Visual Studio 2010\Projects\eltmc\eltmc\eltmc\bin\x86\Debug\Content\CombinedShader.xnb</Request>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Jeremy\Documents\Visual Studio 2010\Projects\eltmc\eltmc\eltmcContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Jeremy\Documents\Visual Studio 2010\Projects\eltmc\eltmc\eltmc\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Jeremy\Documents\Visual Studio 2010\Projects\eltmc\eltmc\eltmcContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Jeremy\Documents\Visual Studio 2010\Projects\eltmc\eltmc\eltmc\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Users\Jeremy\Documents\Visual Studio 2010\Projects\eltmc\ToonShaderEffect\bin\x86\Debug\ToonShaderEffect.dll</Key>
+        <Value>2012-07-17T23:02:06.6472787-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2012-06-10T13:19:04.5047107-07:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
